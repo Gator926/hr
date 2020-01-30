@@ -1,24 +1,32 @@
 .login {
+    background-color: #f0f2f5;
     background-image: url("../img/desktop.svg");
     height: 100%;
     width: 100%;
     position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.login-box {
+    background-repeat: no-repeat;
+    background-position: center 110px;
+    background-size: 100%;
     display: flex;
     display: -webkit-flex;
     align-items:center;
     justify-content:center;
-    height: 100%;
 }
 
-.item {
-    width: 100%;
+.login-box {
+    width: 300px;
 }
 
-.login-box-header {
+.login-box-input {
+    padding-top: 30px;
+}
+
+.login-box h2 {
     text-align: center;
+    color: rgba(0,0,0,.45);
+    margin-bottom: 0px;
+}
+
+.login-form-button {
+    width: 300px;
 }
