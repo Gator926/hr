@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {Layout, Menu, Breadcrumb, Icon, Row, Col, Button} from 'antd';
+import {Layout, Menu, Icon, Row, Col, Button} from 'antd';
 import '../../css/Home/Home.css'
 
-const {Header, Content, Footer, Sider} = Layout;
-const {SubMenu} = Menu;
+const {Header, Content, Sider} = Layout;
+// const {SubMenu} = Menu;
 
 
 class Home extends Component {

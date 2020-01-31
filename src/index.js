@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import Login from "./components/login";
 import Home from "./components/Home/Home";
 import InterviewCalendar from "./components/Interview/InterviewCalendar";
+import UnEmployeeModal from "./components/UNemployee/UNEmployeeModal";
 
 ReactDOM.render(
     <Router>
@@ -13,6 +14,7 @@ ReactDOM.render(
             <Route path="/login" component={Login}/>
             <Route path="/sidebar" component={Home}/>
             <Route path="/interview1" component={InterviewCalendar}/>
+            <Route path="/people" component={UnEmployeeModal}/>
         </div>
     </Router>,
     document.getElementById('root')
